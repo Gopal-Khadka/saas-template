@@ -1,4 +1,5 @@
-export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
+import { FaInstalod } from "react-icons/fa"
+export function Logo2(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg aria-hidden="true" viewBox="0 0 109 40" {...props}>
 
@@ -12,5 +13,14 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
 
       </g>
     </svg>
+  )
+}
+
+
+
+
+export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <FaInstalod className='h-10 w-10 text-blue-600' />
   )
 }
