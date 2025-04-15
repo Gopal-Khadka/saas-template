@@ -42,7 +42,7 @@ export function Hero() {
                     variant="outline"
                 >
                    <FaPlay className='h-3 w-3 flex-none fill-blue-600 group-active:fill-current'/>
-                    <span className="ml-3">Watch video</span>
+                    <span className="ml-3">Watch demo</span>
                 </Button>
             </div>
             <div className="mt-12">
