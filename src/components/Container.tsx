@@ -1,11 +1,12 @@
-import { cn } from '@/lib/utils'
+import clsx from 'clsx'
 
-interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {}
-
-export function Container({ className, ...props }: ContainerProps) {
+export function Container({
+  className,
+  ...props
+}: React.ComponentPropsWithoutRef<'div'>) {
   return (
     <div
-      className={cn('mx-auto max-w-7xl px-4 sm:px-6 lg:px-8', className)}
+      className={clsx('mx-auto max-w-7xl px-4 sm:px-6 lg:px-8', className)}
       {...props}
     />
   )
